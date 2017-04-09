@@ -10,7 +10,10 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    var sharedSession = URLSession.shared
+    var userID: String!
+    var studentLocations = [StudentInfoModel]()
     var window: UIWindow?
 
 
